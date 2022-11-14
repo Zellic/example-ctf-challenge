@@ -1,6 +1,6 @@
-# Zellic's CSAW 2022 CTF challenge
+# Example Ethereum CTF challenge
 
-This challenge uses the Ethereum ctf challenge framework developed by samczsun at Paradigm.
+This challenge uses the Ethereum ctf challenge framework developed by samczsun at Paradigm. It was originally written for CSAW CTF 2022.
 
 We've made this challenge public so to provide a self-contained example on how to use Paradigm's CTF framework.
 
