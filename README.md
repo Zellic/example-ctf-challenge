@@ -2,7 +2,7 @@
 
 This challenge uses the Ethereum ctf challenge framework developed by samczsun at Paradigm. It was originally written for CSAW CTF 2022.
 
-We've made this challenge public so to provide a self-contained example on how to use Paradigm's CTF framework.
+We've made this challenge public so as to provide a self-contained example on how to use Paradigm's CTF framework.
 
 See [this blog post](https://www.zellic.io/blog/how-to-create-an-ethereum-ctf-challenge) for more information :)
 
