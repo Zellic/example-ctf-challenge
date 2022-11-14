@@ -21,7 +21,7 @@ You'll need to set the following environment variables:
 * `PYTHONPATH` to point to mpwn
 
 You'll also need to manually install the following:
-* `pip install yaml ecdsa pysha3 web3 cairo-lang`
+* `pip install yaml ecdsa pysha3 web3`
 
 ## Usage
 
