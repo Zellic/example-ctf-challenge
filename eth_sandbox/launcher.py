@@ -3,7 +3,7 @@ import os
 import random
 import string
 import time
-import hashlib, hmac
+import hashlib
 from dataclasses import dataclass
 from typing import Callable, Dict, List, Optional
 from uuid import UUID
@@ -22,7 +22,6 @@ PUBLIC_IP = os.getenv("PUBLIC_IP", "127.0.0.1")
 CHALLENGE_ID = os.getenv("CHALLENGE_ID", "challenge")
 ENV = os.getenv("ENV", "dev")
 FLAG = os.getenv("FLAG", "PCTF{placeholder}")
-HMAC_SECRET_KEY = b'ap3iu4hPIGPIYgaoseduiygfqaowuyerg'
 
 Account.enable_unaudited_hdwallet_features()
 
@@ -53,13 +52,13 @@ def check_ticket(ticket: str) -> Ticket:
 
     # if ENV == "dev":
     #     return Ticket(challenge_id=CHALLENGE_ID, team_id="team")
-
+    #
     # ticket_info = requests.get(
     #     f"https://us-central1-paradigm-ctf-2022.cloudfunctions.net/checkTicket?ticket={ticket}"
     # ).json()
     # if ticket_info["status"] != "VALID":
     #     return None
-
+    #
     # return Ticket(
     #     challenge_id=ticket_info["challengeId"], team_id=ticket_info["teamId"]
     # )
