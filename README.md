@@ -4,6 +4,8 @@ This challenge uses the Ethereum ctf challenge framework developed by samczsun a
 
 We've made this challenge public so to provide a self-contained example on how to use Paradigm's CTF framework.
 
+See [this blog post](https://www.zellic.io/blog/how-to-create-an-ethereum-ctf-challenge) for more information :)
+
 ## Installing
 
 ### Prerequisites
